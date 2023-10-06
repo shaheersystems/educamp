@@ -9,33 +9,25 @@ function Header() {
       <Overlay isOpen={isOpen} setIsOpen={setIsOpen} />
       <NotesSlideOverlay isOpen={isOpen} />
       <div class="flex  border-gray-600 border-b bg-white items-center justify-between px-6 py-2">
-        <div>
+        <div className="flex items-center gap-2 text-3xl font-bold">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="48"
-            height="48"
-            viewBox="0 0 48 48"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            className="w-8 h-8 text-indigo-600"
           >
             <path
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M4.5 12.263h9.915m18.563 0H43.5m-6.074 10.301h5.989M4.577 36.037V22.564h13.302m11.076 9.566h14.287"
-            />
-            <path
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M13.736 19.028a10.736 10.736 0 1 1 0 7.344"
+              fillRule="evenodd"
+              d="M2.25 6a3 3 0 013-3h13.5a3 3 0 013 3v12a3 3 0 01-3 3H5.25a3 3 0 01-3-3V6zm3.97.97a.75.75 0 011.06 0l2.25 2.25a.75.75 0 010 1.06l-2.25 2.25a.75.75 0 01-1.06-1.06l1.72-1.72-1.72-1.72a.75.75 0 010-1.06zm4.28 4.28a.75.75 0 000 1.5h3a.75.75 0 000-1.5h-3z"
+              clipRule="evenodd"
             />
           </svg>
+          <span className="">Devpen.</span>
         </div>
         <div class="flex items-center gap-4">
           <button
             onClick={() => setIsOpen(true)}
-            class="  hover:text-dark2 rounded-full transition-all p-2 hover:bg-button hover:text-white"
+            class="rounded-full transition-all p-2 hover:bg-button hover:text-white"
           >
             <svg
               width="25"

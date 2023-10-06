@@ -9,11 +9,11 @@ function App() {
         <LearnLayout>
           <div className="p-4 space-y-4 font-sans text-black">
             <h1 className="text-6xl">Introduction</h1>
-            <p className="text-lg">
+            <p>
               Learn how data structures are important to improve our quality of
               life.
             </p>
-            <p className="text-lg">
+            <p>
               Every computer science curriculum in the world includes a course
               on data structures and algorithms. Data structures are that
               important; they improve our quality of life and even save lives on
@@ -23,6 +23,26 @@ function App() {
               and sample libraries to demonstrate the working of each data
               structure and related methods.
             </p>
+            <h1 className="text-4xl">Course contents</h1>
+            <p>
+              The goal of this course is to discuss a comprehensive list of data
+              structures and their implementation for undergraduate computer
+              science students and software engineers. Following is a list of
+              topics at a broad level:
+              <ul className="px-4 py-2">
+                <li className="list-disc">
+                  Array-based implementation of various linear data structures
+                </li>
+                <li className="list-disc">
+                  Linked list-based implementation of linear and next-level data
+                  structures
+                </li>
+                <li className="list-disc">
+                  Exploitation of linked list-based implementations for trees,
+                  graphs, and external storage-based data structures
+                </li>
+              </ul>
+            </p>
             <h1 className="text-4xl">Prerequisites</h1>
             <p>
               This is not a beginner-level course. It won’t explain the basic
@@ -30,6 +50,12 @@ function App() {
               a piece of code that works but doesn’t look familiar, please
               consider it an opportunity to learn something new by utilizing
               your ability to explore.
+            </p>
+            <h1 className="text-4xl">Intended audience</h1>
+            <p>
+              This course covers the major topics discussed in an undergrad
+              computer science curriculum offering students and professionals to
+              learn and refresh their conceptual knowledge and syntax.
             </p>
           </div>
           <div className="flex items-center justify-between p-4 text-black">
